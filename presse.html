@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+		
+		<!-- Favicon -->
+		
+		<link rel="icon" href="http://localhost/dashboard/assets/img/favicon/favicon.png" type="image/x-icon" />
+		
+		<!-- Base meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=0.80">
+
+		<!-- Descriptive meta -->
+		<title>Presse Hotel PARIMIS</title>
+		<meta name="title" content="Presse Hotel PARIMIS">
+		<meta name="description" content="Presse Hotel PARIMIS">
+		<meta name="keywords" content="presse hotel parimis">
+		<meta name="author" content="Ilies Malki">
+
+		<!-- CSS assets -->
+		<link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/font-awesome.css" rel="stylesheet">
+
+		<!-- JS assets -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+		<script src="assets/js/jquery.smooth-scroll.min.js"></script>
+		<script src="assets/js/jquery.vide.min.js"></script>
+		<script src="assets/js/jquery.bgswitcher.js"></script>
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Theme specific assets -->
+		<link href="assets/css/app.css" rel="stylesheet"><!-- Global portal stying -->
+		<link href="assets/css/banners.css" rel="stylesheet"><!-- Page banners -->
+		<script src="assets/js/app.js"></script>		
+
+	</head>
+
+	<body>
+
+		<!-- Main navigation element for site, html5 elements used to improve rendering on assistive devices -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-white">
+			<div class="top-header">
+				<div class="container">
+					
+					<!-- Skip to content link allows users rendering the site on a screen reader to skip past navigational elements -->
+					<div class="menu-block pull-left no-pad hidden-xs">
+						<a href="#main_content" class="btn btn-link scroller"><em class="fa fa-level-down" aria-hidden="true"></em> Découvrir l'Hotel PARIMIS &nbsp;</a>
+					</div>
+
+					<!-- This is optional, comment out if you do not need this set of dropdowns at the top -->
+					<div class="dropdown pull-left">
+						<button class="btn btn-link dropdown-toggle" type="button" id="lang_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<em class="fa fa-globe" aria-hidden="true"></em> Langages
+						<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="lang_menu">
+							<li><a href="#">English</a></li>
+							<li><a href="#">French</a></li>
+							<li><a href="#">Spanish</a></li>
+							<li><a href="#">Russian</a></li>
+						</ul>
+					</div>
+
+					
+					<!-- Secondary navigation and login dropdown -->
+					<div class="menu-block pull-right no-pad">
+						<ul>
+							<!-- Example secondary links -->
+							<li><a href="reservation.html" class="btn btn-link">Réservation en ligne</a></li>
+							<li><a href="#" class="btn btn-link">Avis de nos clients</a></li>
+							
+							<!-- Login dropdown -->
+							<li class="dropdown">
+					          <a href="#" class="dropdown-toggle btn-login" data-toggle="dropdown"><em class="fa fa-lock" aria-hidden="true"></em>  Mon panier</a>
+								<ul id="login-dp" class="dropdown-menu">
+									<li>
+										 <div class="row">
+												<div class="col-md-12">
+													 <form class="form" role="form" method="post" action="http://54.186.99.171/accessible/login" id="login-nav">
+															<div class="form-group">
+																 <label for="loginUser">Numéro de téléphone</label>
+																 <input type="text" class="form-control" id="loginUser" placeholder="Numéro de téléphone" required>
+															</div>
+															<div class="form-group">
+																 <label for="loginPassword">Mot de passe</label>
+																 <input type="password" class="form-control" id="loginPassword" placeholder="Mot de passe" required>
+					                                             <div class="help-block text-right"><a href="#">Mot de passe oublié?</a></div>
+															</div>
+															<div class="form-group">
+																 <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+															</div>
+													 </form>
+												</div>
+												<div class="bottom text-center col-sm-12">
+													<a href="#">Créer un compte gratuitement</a>
+												</div>
+										 </div>
+									</li>
+								</ul>
+					        </li>
+				        </ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container">
+				
+				<!-- Mobile hamburger style menu -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top_main_navigation" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index-2.html">
+						<img src="assets/img/global/logo-dark.png" height="60px" width="60px" alt="Back to home" />
+					</a>
+				</div>
+
+				<!-- Main site header -->
+				<div class="collapse navbar-collapse" id="top_main_navigation">
+					<ul class="nav navbar-nav">
+					<li><a href="components.html">Accueil</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">L'Hotel<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="index-2.html">Qui sommes-nous?</a></li>
+								<li><a href="home2.html">Carte et Accès</a></li>
+								<li><a href="home3.html">Contact</a></li>
+								<li><a href="home4.html">Recrutement</a></li>
+								<li><a href="home4.html">Evenements</a></li>
+								<li><a href="home4.html">Presse</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chambres <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="index-2.html">Classique</a></li>
+								<li><a href="home2.html">Confort</a></li>
+								<li><a href="home3.html">Deluxe</a></li>
+								<li><a href="home4.html">Suite</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="index-2.html">Découvrir le restaurant</a></li>
+								<li><a href="home2.html">Carte Brasserie</a></li>
+								<li><a href="home3.html">Carte Dégustation</a></li>
+								<li><a href="home4.html">Carte Restaurant</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le SPA <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="index-2.html">Le SPA et nos soins</a></li>
+								<li><a href="home2.html">Soin détente</a></li>
+								<li><a href="home3.html">Soin Découverte</a></li>
+								<li><a href="home4.html">Soin Relaxant</a></li>
+								<li><a href="home4.html">Soin Plaisir</a></li>
+								<li><a href="home4.html">Soin Evasion</a></li>
+							</ul>
+						</li>
+						<li><a href="reservation.html">Réserver</a></li>
+						<li><a href="components.html">Avis</a></li>
+						<li><a href="components.html">Actualités</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+
+					
+				</div>
+			</div>
+		</nav>
+
+
+		<div class="banner">
+			<div class="bread-wrap">
+				<div class="container no-height">
+					<div class="row">
+						<div class="col-sm-12">
+							<ol class="breadcrumb">
+								<li>You are here:</li>
+								<li><a href="index-2.html">Home</a></li>
+								<li><a href="page5.html">Job Listing</a></li>
+								<li>Job Detail</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Begin main page content -->
+		<div class="content" id="main_content">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Espace Presse</h1>
+					</div>
+				</div>
+
+				<div class="row pad-bottom">
+					<div class="col-md-7">
+						<hr />
+						<h2>Nous contacter</h2>
+						<p>Notre service presse et médias est à votre disposition pour toutes demandes d'interviews ou de reportages.</p>
+
+						<hr />
+
+						<h3>Service Presse</h3>
+						<ul>
+							<li>Pour toutes demandes d'informations, veuillez vous réferer aux coordonnées ci-dessous :</li>
+							<li>Standard Presse : 01 45 78 45 12 (appel gratuit non surtaxé).</li>
+							<li>E-mail Presse : presse@hotelparimis.fr </li>
+						</ul>
+
+						<hr />
+						
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Footer element -->
+		
+		<footer>
+			<div class="container">
+				<div class="row footer-one">
+					<div class="col-md-7 hidden-sm hidden-xs">
+					<br><br>
+						<div class="row sub-links">
+							<div class="col-xs-3">
+								<ul class="list-unstyled">
+									<li><strong>À PROPOS</strong></li><br>
+									<li><a href="a-propos.html">À propos</a></li>
+									<li><a href="carte.html">Carte et Accès</a></li>
+									<li><a href="recrutement.html">Recrutement</a></li>
+									<li><a href="evenements.html">Evenements</a></li>
+									<li><a href="presse.html">Presse</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-3">
+								<ul class="list-unstyled">
+									<li><strong>NOS CHAMBRES</strong></li><br>
+									<li><a href="/dashboard/chambres/toutes-nos-chambres.html">Toutes nos chambres</a></li>
+									<li><a href="/dashboard/chambres/chambre-classique.html">Chambres Classiques</a></li>
+									<li><a href="/dashboard/chambres/chambre-confort.html">Chambres Confort</a></li>
+									<li><a href="/dashboard/chambres/chambre-deluxe.html">Chambres Deluxe</a></li>
+									<li><a href="/dashboard/chambres/chambre-suite.html">Chambres Suite</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-3">
+								<ul class="list-unstyled">
+									<li><strong>RESTAURANT & SPA</strong></li><br>
+									<li><a href="/dashboard/restaurant/le-restaurant.html">Découvrir le Restaurant</a></li>
+									<li><a href="/dashboard/restaurant/carte-brasserie.html">Carte Brasserie</a></li>
+									<li><a href="/dashboard/restaurant/carte-degustation.html">Carte Dégustation<li>
+									<li><a href="/dashboard/restaurant/le-restaurant.html">Carte Restaurant</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-3">
+								<ul class="list-unstyled">
+									<li><strong>LIENS UTILES</strong></li><br>
+									<li><a href="contact.html">Nous contacter</a></li>
+									<li><a href="avis.html">Avis de nos clients</a></li>
+									<li><a href="reservation.html">Réserver en ligne<li>
+									<li><a href="#">Mon compte Parimis</a></li>
+									<li><a href="blog.html">Actualités de l'Hotel</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Socials Medias Links -->
+					
+					<div class="col-md-5 text-right social mobile-left">
+						Suivez-nous:
+						<a href="#" target="blank" aria-label="Facebook"><em class="fa fa-facebook" aria-hidden="true"></em></a>
+						<a href="#" target="blank" aria-label="Twitter"><em class="fa fa-twitter" aria-hidden="true"></em></a>
+						<a href="#" target="blank" aria-label="YouTube"><em class="fa fa-youtube" aria-hidden="true"></em></a>
+						<a href="#" target="blank" aria-label="LinkedIn"><em class="fa fa-linkedin" aria-hidden="true"></em></a>
+						<a href="#" target="blank" aria-label="Instagram"><em class="fa fa-intagram" aria-hidden="true"></em></a>
+						<span class="spacer" aria-hidden="true"> | </span>
+						<a href="#" target="blank" aria-label="iPhone App"><em class="fa fa-apple" aria-hidden="true"></em></a>
+						<a href="#" target="blank" aria-label="Android App"><em class="fa fa-android" aria-hidden="true"></em></a>
+
+						<hr />
+						
+						<!-- Adresses Hotel PARIMIS -->
+						
+						<address>
+							<strong>Hôtel PARIMIS</strong><br />
+							1 avenue Montaigne<br />
+							75008 Paris<br />
+							Standard : 01 45 78 45 12<br />
+							Mail : contact@hotelparimis.fr<br />
+							SIRET : 874 457 78452<br />
+						</address>
+					</div>
+				</div>
+				
+				<!-- Links -->
+				
+				<div class="row footer-links">
+					<div class="col-sm-12">
+						<a href="mentions-legales.html">Mentions légales</a>
+						<a href="cgv.html">Conditions Générales de Ventes</a>
+						<a href="reservation.html">Réservation en ligne</a>
+						<a href="avis.html">Avis de nos clients</a>
+						<a href="acces.html">Carte et accès</a>
+						<a href="sitemap.html">Plan du site</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>L'Hôtel PARIMIS est un Hôtel haut de gamme 4 étoiles situé en plein coeur de Paris à Paris 10ème, nos chambres sont équipés de télé et Wi-Fi gratuit, profitez de SPA et Jacuzzi en illimité, les petits déjeunes sont livrés chaque matins à 8h dans votre chambre, nous disposons également d'un restaurant 3 étoiles spécialisé dans la Gastronomie française et européenne.</p>
+						<p>&copy; Copyright 2022 <strong>Hôtel PARIMIS</strong> tous droits réservés, le logo (H) est un logo (marque) déposée en France et à l'international par l'Hotel PARIMIS.</p><br>
+						<img src="assets/img/branding/footer-logo.png" height="280px" width="290px" alt="HOTEL PARIMIS" class="img-responsive img-rounded" /><br>
+						<img src="assets/img/pay.png" height="180px" width="180px" alt="CB VISA MASTERCARD AMERICAN EXPRESS BUY" class="img-responsive img-rounded" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		
+	</body>
+	
+</html>
